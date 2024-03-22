@@ -1,0 +1,26 @@
+{
+  "name": "graphql-roc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:simple": "tsnd --respawn --transpile-only simple-server.ts",
+    "dev": "tsnd --respawn --transpile-only src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "class-validator": "^0.14.1",
+    "graphql": "^15.3.0",
+    "graphql-scalars": "^1.22.5",
+    "reflect-metadata": "^0.2.1",
+    "type-graphql": "^1.1.1"
+  }
+}
